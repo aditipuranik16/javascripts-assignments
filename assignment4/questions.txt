@@ -1,0 +1,8 @@
+Question 1
+-------------------
+By how many ways we can access elements in the DOM and write about them in brief?
+
+Question 2
+-------------------
+Write a javascript program that will take 2 numbers from the HTML page and display them on the
+HTML page after the addition of those 2 numbers.
