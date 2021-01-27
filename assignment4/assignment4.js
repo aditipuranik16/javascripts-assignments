@@ -32,7 +32,8 @@ var x = document.getElementsByClassName("intro");
 
 
 4)querySelectorAll() -:
--If you want to find all HTML elements that match a specified CSS selector (id, class names, types, attributes, values of attributes, etc), use the querySelectorAll() method.
+-If you want to find all HTML elements that match a specified CSS selector (id, class names, types, attributes, values of attributes, etc),
+use the querySelectorAll() method.
 
 Syntax -:
 document.querySelectorAll();
@@ -40,7 +41,6 @@ document.querySelectorAll();
 Example -:
 -This example returns a list of all <p> elements with class="intro"
 var x = document.querySelectorAll("p.intro");
-
 */
 
 //Question 2
