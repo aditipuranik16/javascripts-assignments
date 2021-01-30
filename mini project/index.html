@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta name="keyword" content="superhero,batman,website"/> -->
+    <title>superhero</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Superheroes</h1>
+        <div class="addform">
+
+            <div class="inp">
+                <input type="text" placeholder="Name" id="name"/>
+            </div>
+
+            <div class="inp">
+                <input type="number" placeholder="Age" id="age"/>
+            </div>
+
+            <div class="inp">
+                <input type="text" placeholder="Planet" id="planet"/>
+            </div>
+
+            <div class="inp">
+                <input type="text" placeholder="Weapons(w1,w2...wn)" id="weapons"/>
+            </div>
+
+            <div class="inp">
+                <button onclick="addSuperhero()">Add Superhero</button>
+            </div>
+
+        </div>
+
+        <table class="table" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Planet</th>
+                    <th>Weapons</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+                <!-- <tr>
+                    <td>Captain</td>
+                    <td>100</td>
+                    <td>Earth</td>
+                    <td>Vibrabium Sheild</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="superhero.js"></script>
+</body>
+</html>
